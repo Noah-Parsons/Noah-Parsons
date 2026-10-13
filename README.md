@@ -2,7 +2,7 @@
 
 **Independent researcher in computational physics, systems software and scientific-software verification · Newcastle, Wyoming**
 
-[ORCID 0009-0000-7224-6040](https://orcid.org/0009-0000-7224-6040) · [parsons.m.noah@gmail.com](mailto:parsons.m.noah@gmail.com) · [noah-parsons.github.io](https://noah-parsons.github.io)
+[ORCID 0009-0000-7224-6040](https://orcid.org/0009-0000-7224-6040) · [parsons.m.noah@gmail.com](mailto:parsons.m.noah@gmail.com)
 
 I build software for physics and systems, and I test whether scientific software gives correct answers. Most of my work starts from the same question: when a program reports success, how do we know the result is right? That question has led to a compiler for classical mechanics, an operating system written from scratch, a study of three dynamics engines against independent references, fixes in Project Chrono, SciPy and CFAST, and an open journal for this kind of work.
 
@@ -27,7 +27,7 @@ The engines agree to machine precision on every adjudicated case. An apparent di
 - Manuscript: *Limits of Differential Testing: Three Rigid-Body Dynamics Engines Under Library-Independent Adjudication* (in submission)
 - Artefacts: [doi:10.5281/zenodo.22315172](https://doi.org/10.5281/zenodo.22315172)
 - Companion study: *A shared blind spot in numerical quadrature*, [doi:10.5281/zenodo.22557771](https://doi.org/10.5281/zenodo.22557771)
-- Technical reports TR-2026-04, *Three Engines, One System*, and TR-2026-06, *Capability Measures the Driving, Not the Engine*
+- Technical reports TR-2026-01 *Reference Oracle*, TR-2026-02 *Sympy Adapter*, TR-2026-03 *Drake Adapter*, TR-2026-04 *Week One Findings*, TR-2026-05 *Three Families*, TR-2026-06 *Driving the Engines*
 - Public conformance page: each new engine release is run automatically against the reference cases
 
 ### Benchmark problem for the IFToMM multibody library
@@ -37,7 +37,7 @@ The engines agree to machine precision on every adjudicated case. An apparent di
 Tests whether the records behind Berkeley Lab's published median time-to-withdrawal for the non-ISO West represent the region. Only 636 of 5,277 western withdrawals (12.1%) carry a usable date, from six of 31 transmission providers. The reporting subset is unrepresentative, but reweighting moves the median only from 1.83 to 1.77 years: the binding limitation is coverage, not composition. [doi:10.5281/zenodo.22547678](https://doi.org/10.5281/zenodo.22547678) · [western-queue-reporting](https://github.com/Noah-Parsons/western-queue-reporting)
 
 ### Galactic algorithms, measured
-An empirical study of the fusion tree against practical search structures: 10 structures, n from 2^8 to 2^25, 48,600 timings, two compilers, with zero failures across 20 million correctness checks. The fusion tree never beats a well-built B-tree, though it does beat binary search at large n. Extended into new structures, ClusterJump and SplineIndex, under pre-registered plans. [doi:10.5281/zenodo.22718523](https://doi.org/10.5281/zenodo.22718523)
+An empirical study of the fusion tree against practical search structures: 10 structures, n from 2^8 to 2^25, 48,600 timings, two compilers, with zero failures across 20 million correctness checks. The fusion tree never beats a well-built B-tree, though it does beat binary search at large n. Extended into new structures, ClusterJump and SplineIndex, under pre-registered plans. [doi:10.5281/zenodo.22718523](https://doi.org/10.5281/zenodo.22718523) [fusion-tree-benchmark](https://github.com/Noah-Parsons/fusion-tree-benchmark)
 
 ---
 
@@ -49,11 +49,11 @@ A domain-specific language and compiler for physical systems. You write a Lagran
 | Package | Purpose |
 |---|---|
 | [mechanicsdsl](https://github.com/MechanicsDSL/mechanicsdsl) | Core compiler, published on PyPI as `mechanicsdsl-core` |
-| [mechanicsdsl-embedded](https://github.com/MechanicsDSL/mechanicsdsl-embedded) | Deployment to Arduino, Raspberry Pi and ARM devices; C++ and `no_std` Rust for real-time control |
-| [mechanicsdsl-ros2](https://github.com/MechanicsDSL/mechanicsdsl-ros2) | Compilation of physical systems to ROS 2 packages |
-| [mechanicsdsl-unity](https://github.com/MechanicsDSL/mechanicsdsl-unity) | Simulation components for Unity and Unreal Engine |
-| [mechanicsdsl-datasets](https://github.com/MechanicsDSL/mechanicsdsl-datasets) | Reference datasets for parameter estimation and inverse-problem benchmarks |
-| [mechanicsdsl-notebooks](https://github.com/MechanicsDSL/mechanicsdsl-notebooks) | Jupyter notebooks across the supported physics domains |
+| [mechanicsdsl-embedded](https://github.com/MechanicsDSL/mechanicsdsl-embedded) | Deployment to Arduino, Raspberry Pi and ARM devices; C++ and `no_std` Rust for real-time control. Published on PyPI as `mechanicsdsl-embedded` |
+| [mechanicsdsl-ros2](https://github.com/MechanicsDSL/mechanicsdsl-ros2) | Compilation of physical systems to ROS 2 packages. Published on PyPI as `mechanicsdsl-ros2` |
+| [mechanicsdsl-unity](https://github.com/MechanicsDSL/mechanicsdsl-unity) | Simulation components for Unity and Unreal Engine. Published on PyPI as `mechanicsdsl-unity` |
+| [mechanicsdsl-datasets](https://github.com/MechanicsDSL/mechanicsdsl-datasets) | Reference datasets for parameter estimation and inverse-problem benchmarks. Published on PyPI as `mechanicsdsl-datasets` |
+| [mechanicsdsl-notebooks](https://github.com/MechanicsDSL/mechanicsdsl-notebooks) | Jupyter notebooks across the supported physics domains. Published on PyPI as `mechanicsdsl-notebooks` |
 
 Release 2.1.3 was a correctness release: the project's own adversarial suite found and fixed faults in which the compiler produced wrong results while reporting success.
 
