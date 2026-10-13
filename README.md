@@ -104,4 +104,3 @@ Recovered a 1980s DIBOL/DBL accounting system: archived its source, rebuilt it f
 - Parsons, N. (2026). Who reports withdrawal dates in the Western Interconnection queue, and does it matter? [doi:10.5281/zenodo.22547678](https://doi.org/10.5281/zenodo.22547678)
 - Parsons, N. (2026). A shared blind spot in numerical quadrature. [doi:10.5281/zenodo.22557771](https://doi.org/10.5281/zenodo.22557771)
 - Parsons, N. (2026). Artefacts for *Limits of Differential Testing*. [doi:10.5281/zenodo.22315172](https://doi.org/10.5281/zenodo.22315172)
-- Parsons, N. (2026). Galactic algorithms, measured: fusion trees against practical search structures. [doi:10.5281/zenodo.22718523](https://doi.org/10.5281/zenodo.22718523)
