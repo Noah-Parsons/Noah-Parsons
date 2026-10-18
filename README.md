@@ -70,7 +70,7 @@ Recovered a 1980s DIBOL/DBL accounting system: archived its source, rebuilt it f
 | Project | Contribution | Status |
 |---|---|---|
 | [Project Chrono](https://github.com/projectchrono/chrono) | Reported faults in assembly-level accelerations, the Python bindings and `DoFrameKinematics` ([#846](https://github.com/projectchrono/chrono/issues/846), [#847](https://github.com/projectchrono/chrono/issues/847), [#851](https://github.com/projectchrono/chrono/issues/851)) | Fixed |
-| Project Chrono | Regression test of `DoAssembly` on coupled mechanisms across three solvers ([#856](https://github.com/projectchrono/chrono/pull/856)) | In review |
+| Project Chrono | Regression test of `DoAssembly` on coupled mechanisms across three solvers ([#856](https://github.com/projectchrono/chrono/pull/856)) | Merged |
 | [SciPy](https://github.com/scipy/scipy) | Reported a stiff-solver regression in `integrate.ode` (vode) since 1.17.0 ([#26384](https://github.com/scipy/scipy/issues/26384)) | Fixed in [#26387](https://github.com/scipy/scipy/pull/26387) |
 | [CFAST](https://github.com/firemodels/cfast) (NIST) | Input-guide limits that disagree with the source, found in review ([#2553](https://github.com/firemodels/cfast/issues/2553)) | Accepted |
 | [PyCFAST](https://github.com/bewygs/pycfast) | Issues found in review ([#231](https://github.com/bewygs/pycfast/issues/231), [#232](https://github.com/bewygs/pycfast/issues/232)) | Fixed in [#236](https://github.com/bewygs/pycfast/pull/236), [#237](https://github.com/bewygs/pycfast/pull/237) |
